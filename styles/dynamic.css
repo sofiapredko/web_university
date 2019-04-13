@@ -3,9 +3,17 @@ body {
     line-height: 1.8;
     color: #818181;
   }
-.btn-default {
-    box-shadow: 1px 2px 5px #000000;   
+.btn-default-shadow {
+    box-shadow: 1px 2px 5px #e6ee9c;   
   }
+.btn-default {
+    background: #95d46a;
+    color: #fff;
+ }
+.btn-default:hover {
+    background: rgb(19, 141, 70);
+    color: #000;
+ }
   h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -21,7 +29,7 @@ body {
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #c5e1a5;
+    background-color: #ace58a;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -97,7 +105,7 @@ body {
     background-color: white !important;
   }
   .panel-footer h3 {
-    font-size: 32px;
+    font-size: 15px;
   }
   .panel-footer h4 {
     color: #aaa;
@@ -105,8 +113,8 @@ body {
   }
   .panel-footer .btn {
     margin: 15px 0;
-    background-color: ##43a047;
-    color: #fff;
+    background-color: #43a047;
+    color: #ffff;
   }
   .navbar {
     margin-bottom: 0;
@@ -132,8 +140,11 @@ body {
   }
   footer .glyphicon {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #43a047 ;
+  }
+  .site-footer {
+    background: "images/footer2.jpg";
   }
   .slideanim {visibility:hidden;}
   .slide {
