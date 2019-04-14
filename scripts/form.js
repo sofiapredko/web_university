@@ -46,7 +46,6 @@ document.getElementById('fileInput').addEventListener('change', e => {
 });
 
 
-
 const form = document.getElementById('exampleInputPassword1');
 
 form.addEventListener('focus', (event) => {
